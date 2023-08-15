@@ -1,0 +1,63 @@
+*{
+    margin:0;
+}
+
+html{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+}
+
+.homepage__bar{
+    flex:0.15;
+}
+.homepage__feed{
+    flex:0.85 ;
+    align-self: center;
+}
+.Bar h1{
+    position:fixed;
+}
+.Bar ul{
+    list-style: none;
+    line-height: 100px;
+    background: #1b2430;
+    color: white;
+    position: fixed;
+    width: 133px; 
+    margin-top:40px;
+    
+}
+
+
+.Bar li:hover{
+    color: rgb(3, 231, 196);
+    cursor: pointer;
+}
+
+.feed{
+    display: flex;
+    flex-direction: row;
+    
+}
+.feed_post{
+    padding-left: 180px;
+}
+
+.feed_left{
+    flex: 0.7;
+}
+
+feed_right{
+    flex: 0.3;
+}
+
+.suggestion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
